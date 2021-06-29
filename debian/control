@@ -1,16 +1,17 @@
 Source: qhttpengine
 Section: libs
-Priority: extra
+Priority: optional
 Maintainer: Nathan Osman <nathan@quickmediasolutions.com>
+Uploaders: Marc Leeman <m.leeman@televic.com>
 Build-Depends: debhelper (>= 9),
                cmake (>= 2.8.11),
                qtbase5-dev (>= 5.1),
                doxygen,
                libjs-jquery
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 Homepage: https://github.com/nitroshare/qhttpengine
 
-Package: libqhttpengine0
+Package: libqhttpengine1
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
@@ -24,7 +25,7 @@ Package: libqhttpengine-dev
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends},
-         libqhttpengine0 (= ${binary:Version})
+         libqhttpengine1 (= ${binary:Version})
 Description: HTTP server for Qt applications - development files
  QHttpEngine provides a set of classes that enable Qt applications to create an
  HTTP server capable of serving static files and exposing a public API.

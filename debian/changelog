@@ -1,10 +1,8 @@
-qhttpengine (0.1.0+dfsg1-1.1~televic10+1) buster-televic-unstable; urgency=medium
+qhttpengine (1.0.1~televic10+1) buster-televic-unstable; urgency=medium
 
-  [ Holger Levsen ]
-  * Non-maintainer upload.
-  * Rebuild on moya
+  * port to 1.0.1
 
- -- Marc Leeman <m.leeman@televic.com>  Tue, 29 Jun 2021 08:51:31 +0200
+ -- Marc Leeman <m.leeman@televic.com>  Tue, 29 Jun 2021 09:10:42 +0200
 
 qhttpengine (0.1.0+dfsg1-1.1) unstable; urgency=medium
 
