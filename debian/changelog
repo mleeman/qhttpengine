@@ -1,3 +1,9 @@
+qhttpengine (1.0.1~televic11+2) bullseye-televic-unstable; urgency=medium
+
+  * debian: compat version 10
+
+ -- Marc Leeman <m.leeman@televic.com>  Fri, 03 Dec 2021 15:31:32 +0100
+
 qhttpengine (1.0.1~televic10+1) buster-televic-unstable; urgency=medium
 
   * port to 1.0.1
